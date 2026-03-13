@@ -1,16 +1,100 @@
-# React + Vite
+# React Router Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project demonstrates **basic routing in React using React Router**.
+It contains two pages (**Home** and **About**) and navigation between them without reloading the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application follows the **Single Page Application (SPA)** concept where components change based on the URL.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* React Router DOM
+* Vite
+* JavaScript (ES6)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Folder Structure
+
+```
+src
+│
+├── pages
+│   ├── Home.jsx
+│   └── About.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Features
+
+* Navigation between Home and About pages
+* React Router implementation
+* Clean and simple UI
+* Single Page Application behavior (no full page reload)
+
+---
+
+## Installation and Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/Dhairya1502/LabMst.git
+```
+
+2. Navigate to the project folder
+
+```
+cd LabMst
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the project
+
+```
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## Concepts Covered
+
+* React Router
+* Routes
+* Route
+* Link
+* Component based architecture
+
+---
+
+## Possible Improvements
+
+* Add a **404 Not Found page**
+* Implement **lazy loading for routes**
+* Add **protected routes for authentication**
+* Improve UI with CSS modules or Tailwind
+
+---
+
+## Author
+
+**Dhairya Sharma**
